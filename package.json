@@ -1,0 +1,38 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-sqlite",
+  "version": "0.0.1",
+  "description": "A simple Node app with SQLite as a database management system, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.10.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "sqlite3": "^4.1.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

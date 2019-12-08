@@ -1,0 +1,235 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+/*
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+*/
+.suggestion-form {
+  background-color: cyan;
+  padding: 1px;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 1px;
+}
+
+.accusation-form {
+  background-color: IndianRed;
+  padding: 1px;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 1px;
+}
+
+.character-form {
+  background-color: DarkSeaGreen;
+  padding: 1px;
+  display: inline-block;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 1px;
+}
+
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  cursor: pointer;
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+th{
+  background-color:gray;
+  width:250px;
+  text-align:left;
+}
+td{
+  text-align:left;
+  border:1px solid;
+  width:50%;   
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.container-flex{
+  position:relative;
+  text-align: center;
+  height:600px;
+  width:900px;
+}
+.game-title{
+  height:50px;
+  border: 1px solid;
+}
+.player-names{
+  font-size: 9px;
+  padding-bottom: -5px;
+  padding-top: -1px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+
+}
+.room-names{
+  font-size: 8px;
+  padding-bottom: -5px;
+  padding-top: -1px;
+  border: 1px solid;
+}
+.player-action{
+  width:25%;
+  height:580px;
+  border: 1px solid;
+  float:left;
+}
+.home-square{
+  width:10%;
+  float:right;
+  height:580px;
+}
+.CommonGround{
+  width:50%;
+  height:580px;
+  border: 1px solid;
+  float:left;
+}
+.personal-notebook{
+  width:15%;
+  height:580px;
+  float:left;
+  border: 1px solid;
+}
+.run-btn{
+  width:100%;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 12px;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 90.5px;
+  height:116.5px;
+}
+.square-home {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 12px;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 90.5px;
+  height:280px;
+}
+.square-black {
+  background: black;
+  border: 1px solid #999;
+  float: left;
+  font-size: 12px;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 90.5px;
+  height:116.5px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+.table-head{
+  background-color:gray;
+  width:250px;
+  text-align:left;
+}
+#suggestion_form:hover {
+  background-color: yellow;
+}
